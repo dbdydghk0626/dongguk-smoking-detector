@@ -1,0 +1,23 @@
+# Ignore raw and processed datasets, tensorboard logs, videos, and weights
+00_DATA/
+!00_DATA/results/run1/accuracy_plot.png
+!00_DATA/results/run1/loss_plot.png
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db

@@ -1,0 +1,15 @@
+input_dim: 32
+hidden_dim: 128
+num_layers: 2
+num_classes: 3
+seq_len: 20
+
+lstm_path: "00_DATA/results/run1/lstm_checkpoints/best_val_acc.pth"
+onnx_path: "00_DATA/results/run1/lstm_onnx_checkpoints/best_val_acc.onnx"
+
+yolo_model: "00_DATA/pretrained_yolov8n_weight/yolov8n-pose.pt"
+
+hydra:
+  run:
+    dir: .
+  output_subdir: null

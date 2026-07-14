@@ -1,0 +1,22 @@
+yolo_model: "00_DATA/pretrained_yolov8n_weight/yolov8n-pose.pt"
+lstm_path: "00_DATA/results/run1/lstm_checkpoints/best_val_acc.pth"
+tracker: "bytetrack.yaml"
+
+input_dim: 32
+hidden_dim: 128
+num_layers: 2
+num_classes: 3
+seq_len: 20
+history_len: 15
+
+video: "00_DATA/videos/video_action_45/video_45-5/45-5"
+save_video: true
+output_path: "00_DATA/results/run1/output_video/{video_name}"
+
+thresholds:
+  smoking: 0.9
+
+hydra:
+  run:
+    dir: .
+  output_subdir: null

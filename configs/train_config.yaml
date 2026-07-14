@@ -1,0 +1,18 @@
+input_dim: 32
+hidden_dim: 128
+num_layers: 2
+num_classes: 3
+seq_len: 20
+
+save_path: "00_DATA/results/run1/lstm_checkpoints"
+log_dir: "00_DATA/tensorboard/run1/smoking_lstm"
+epochs: 400
+batch_size: 64
+lr: 0.001
+weight_decay: 0.0001
+train_split: 0.9
+
+hydra:
+  run:
+    dir: .
+  output_subdir: null
