@@ -119,7 +119,12 @@ python inference_raspi.py \
 - PyTorch, Ultralytics 없이 **onnxruntime + OpenCV + NumPy** 만으로 동작
 - ONNX 변환된 YOLOv8-Pose + LSTM 모델 사용
 - 경량 centroid 기반 트래커 내장 (ByteTrack 의존성 제거)
-![실행화면](00_DATA/results/run1/execute_img.png)
+
+<p align="center">
+  <img src="00_DATA/results/run1/execute_img.png" width="80%" /><br>
+  <em>▲ 실시간 흡연 감지 구동 화면</em>
+</p>
+
 
 ## Configuration
 
