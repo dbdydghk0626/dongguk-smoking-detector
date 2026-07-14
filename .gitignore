@@ -2,6 +2,7 @@
 00_DATA/
 !00_DATA/results/run1/accuracy_plot.png
 !00_DATA/results/run1/loss_plot.png
+!00_DATA/results/run1/execute_img.png
 
 # Python
 __pycache__/
